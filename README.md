@@ -1,5 +1,7 @@
 # MG Debug
 
+![Screenshot](screenshot.png)
+
 MG Debug is a WordPress plugin that replaces `var_dump` and `error_log` with **`mg_dump`**, a wrapper around [Kint](https://kint-php.github.io/kint/) which enables styled, inspectable variable dumps that show up in the WordPress admin area. MG Debug requires that the [Kint Debugger](https://wordpress.org/plugins/kint-debugger/) plugin be activated.
 
 **Features**:
