@@ -1,0 +1,42 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.mg-debug-card {
+    box-sizing: border-box;
+    max-width: none;
+    width: 100%;
+}
+
+.mg-debug-card a {
+    text-decoration: none;
+}
+
+.mg-debug-frame {
+    width: 100%;
+    height: auto;
+}
+
+.mg-debug-frame iframe {
+    width: 100%;
+    height: auto;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-actions {
+    opacity: 0;
+}
+
+.mg-debug-card:hover .card-actions,
+.mg-debug-card:focus .card-actions {
+    opacity: 1;
+}
+
+.danger {
+    color: #a00;
+}
